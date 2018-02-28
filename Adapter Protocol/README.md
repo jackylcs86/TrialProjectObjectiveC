@@ -1,0 +1,2 @@
+# AdapterProtocol
+Trial adapter pattern

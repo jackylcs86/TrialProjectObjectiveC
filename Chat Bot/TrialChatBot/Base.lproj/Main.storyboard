@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type ur message" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="hVm-mr-xZw">
+                                <rect key="frame" x="20" y="202" width="335" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="raN-4I-SXQ"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aA-cZ-IMA">
+                                <rect key="frame" x="75.5" y="242" width="223" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.38823529410000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="gms-7h-Aet"/>
+                                </constraints>
+                                <state key="normal" title="Send Message to Bot">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendMessageToBot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mI5-97-gOW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ChipBot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFM-HS-Uh6">
+                                <rect key="frame" x="20" y="60" width="255" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1a-EV-dsR">
+                                <rect key="frame" x="315" y="242" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="H1a-EV-dsR" secondAttribute="height" multiplier="1:1" id="nYw-bK-UAJ"/>
+                                </constraints>
+                                <state key="normal" title="S"/>
+                                <connections>
+                                    <action selector="speakToText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JDl-uQ-FbC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chip is a hotel booking chatbot. Just begin by saying &quot;Hi!&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJS-K6-nw6">
+                                <rect key="frame" x="20" y="121" width="335" height="41"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2aA-cZ-IMA" firstAttribute="centerX" secondItem="hVm-mr-xZw" secondAttribute="centerX" id="451-ni-lQz"/>
+                            <constraint firstItem="NFM-HS-Uh6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="48P-AK-7dt"/>
+                            <constraint firstItem="hVm-mr-xZw" firstAttribute="top" secondItem="AJS-K6-nw6" secondAttribute="bottom" constant="40" id="9zQ-cJ-fWO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NFM-HS-Uh6" secondAttribute="trailing" constant="100" id="Dns-1s-F0g"/>
+                            <constraint firstItem="AJS-K6-nw6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="LJz-PZ-HNU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hVm-mr-xZw" secondAttribute="trailing" constant="20" id="LPx-xd-3RK"/>
+                            <constraint firstItem="H1a-EV-dsR" firstAttribute="top" secondItem="2aA-cZ-IMA" secondAttribute="top" id="SCY-0E-Pts"/>
+                            <constraint firstItem="hVm-mr-xZw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Suo-e3-64c"/>
+                            <constraint firstItem="2aA-cZ-IMA" firstAttribute="top" secondItem="hVm-mr-xZw" secondAttribute="bottom" constant="10" id="WBF-el-10J"/>
+                            <constraint firstItem="AJS-K6-nw6" firstAttribute="top" secondItem="NFM-HS-Uh6" secondAttribute="bottom" constant="25" id="bfg-2D-f6J"/>
+                            <constraint firstItem="2aA-cZ-IMA" firstAttribute="width" secondItem="hVm-mr-xZw" secondAttribute="width" multiplier="2:3" id="bqz-PB-wlq"/>
+                            <constraint firstItem="H1a-EV-dsR" firstAttribute="height" secondItem="2aA-cZ-IMA" secondAttribute="height" id="eig-XN-b8h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AJS-K6-nw6" secondAttribute="trailing" constant="20" id="eu9-FF-ERL"/>
+                            <constraint firstItem="NFM-HS-Uh6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="iHP-kV-Kyj"/>
+                            <constraint firstItem="H1a-EV-dsR" firstAttribute="trailing" secondItem="hVm-mr-xZw" secondAttribute="trailing" id="rX0-pc-yEg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnMicroPhone" destination="H1a-EV-dsR" id="dCT-mz-8Jc"/>
+                        <outlet property="lblBotReply" destination="AJS-K6-nw6" id="PjN-Ff-546"/>
+                        <outlet property="tfMsgToBot" destination="hVm-mr-xZw" id="oum-8G-R4m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="93.103448275862078"/>
+        </scene>
+    </scenes>
+</document>

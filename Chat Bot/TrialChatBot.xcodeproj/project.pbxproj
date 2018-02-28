@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F391596629E69AD4B701CD0 /* Pods_TrialChatBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A5284F2FDE0C4EE3BBDE50 /* Pods_TrialChatBot.framework */; };
+		834B05C22004BCE600A5E049 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 834B05C12004BCE600A5E049 /* AppDelegate.m */; };
+		834B05C52004BCE600A5E049 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834B05C42004BCE600A5E049 /* ViewController.m */; };
+		834B05CA2004BCE600A5E049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834B05C92004BCE600A5E049 /* Assets.xcassets */; };
+		834B05CD2004BCE600A5E049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834B05CB2004BCE600A5E049 /* LaunchScreen.storyboard */; };
+		834B05D02004BCE600A5E049 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 834B05CF2004BCE600A5E049 /* main.m */; };
+		834B05DA2004BCE600A5E049 /* TrialChatBotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 834B05D92004BCE600A5E049 /* TrialChatBotUITests.m */; };
+		834B05E82004C06400A5E049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834B05E62004C06400A5E049 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		834B05D62004BCE600A5E049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834B05B52004BCE500A5E049 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834B05BC2004BCE600A5E049;
+			remoteInfo = TrialChatBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24A5284F2FDE0C4EE3BBDE50 /* Pods_TrialChatBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrialChatBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		834B05BD2004BCE600A5E049 /* TrialChatBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrialChatBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		834B05C02004BCE600A5E049 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		834B05C12004BCE600A5E049 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		834B05C32004BCE600A5E049 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		834B05C42004BCE600A5E049 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		834B05C92004BCE600A5E049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		834B05CC2004BCE600A5E049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		834B05CE2004BCE600A5E049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834B05CF2004BCE600A5E049 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		834B05D52004BCE600A5E049 /* TrialChatBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrialChatBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		834B05D92004BCE600A5E049 /* TrialChatBotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrialChatBotUITests.m; sourceTree = "<group>"; };
+		834B05DB2004BCE600A5E049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834B05E72004C06400A5E049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF3A533904AEBB1BC8190729 /* Pods-TrialChatBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrialChatBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrialChatBot/Pods-TrialChatBot.debug.xcconfig"; sourceTree = "<group>"; };
+		F7099877DCC911585D226CC7 /* Pods-TrialChatBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrialChatBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrialChatBot/Pods-TrialChatBot.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		834B05BA2004BCE600A5E049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F391596629E69AD4B701CD0 /* Pods_TrialChatBot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834B05D22004BCE600A5E049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DF194C5F9919A8964DF0728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24A5284F2FDE0C4EE3BBDE50 /* Pods_TrialChatBot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		834B05B42004BCE500A5E049 = {
+			isa = PBXGroup;
+			children = (
+				834B05BF2004BCE600A5E049 /* TrialChatBot */,
+				834B05D82004BCE600A5E049 /* TrialChatBotUITests */,
+				834B05BE2004BCE600A5E049 /* Products */,
+				AFC85CAB9006E30538C5A4A6 /* Pods */,
+				5DF194C5F9919A8964DF0728 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		834B05BE2004BCE600A5E049 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				834B05BD2004BCE600A5E049 /* TrialChatBot.app */,
+				834B05D52004BCE600A5E049 /* TrialChatBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		834B05BF2004BCE600A5E049 /* TrialChatBot */ = {
+			isa = PBXGroup;
+			children = (
+				834B05C02004BCE600A5E049 /* AppDelegate.h */,
+				834B05C12004BCE600A5E049 /* AppDelegate.m */,
+				834B05C32004BCE600A5E049 /* ViewController.h */,
+				834B05C42004BCE600A5E049 /* ViewController.m */,
+				834B05C92004BCE600A5E049 /* Assets.xcassets */,
+				834B05E62004C06400A5E049 /* Main.storyboard */,
+				834B05CB2004BCE600A5E049 /* LaunchScreen.storyboard */,
+				834B05CE2004BCE600A5E049 /* Info.plist */,
+				834B05CF2004BCE600A5E049 /* main.m */,
+			);
+			path = TrialChatBot;
+			sourceTree = "<group>";
+		};
+		834B05D82004BCE600A5E049 /* TrialChatBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				834B05D92004BCE600A5E049 /* TrialChatBotUITests.m */,
+				834B05DB2004BCE600A5E049 /* Info.plist */,
+			);
+			path = TrialChatBotUITests;
+			sourceTree = "<group>";
+		};
+		AFC85CAB9006E30538C5A4A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF3A533904AEBB1BC8190729 /* Pods-TrialChatBot.debug.xcconfig */,
+				F7099877DCC911585D226CC7 /* Pods-TrialChatBot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		834B05BC2004BCE600A5E049 /* TrialChatBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834B05DE2004BCE600A5E049 /* Build configuration list for PBXNativeTarget "TrialChatBot" */;
+			buildPhases = (
+				63D57C50CD05AF3E60A7E5FA /* [CP] Check Pods Manifest.lock */,
+				834B05B92004BCE600A5E049 /* Sources */,
+				834B05BA2004BCE600A5E049 /* Frameworks */,
+				834B05BB2004BCE600A5E049 /* Resources */,
+				4AD202976D485C899742C601 /* [CP] Embed Pods Frameworks */,
+				0D5F22DE2188F7773366B2DD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrialChatBot;
+			productName = TrialChatBot;
+			productReference = 834B05BD2004BCE600A5E049 /* TrialChatBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		834B05D42004BCE600A5E049 /* TrialChatBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834B05E12004BCE600A5E049 /* Build configuration list for PBXNativeTarget "TrialChatBotUITests" */;
+			buildPhases = (
+				834B05D12004BCE600A5E049 /* Sources */,
+				834B05D22004BCE600A5E049 /* Frameworks */,
+				834B05D32004BCE600A5E049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834B05D72004BCE600A5E049 /* PBXTargetDependency */,
+			);
+			name = TrialChatBotUITests;
+			productName = TrialChatBotUITests;
+			productReference = 834B05D52004BCE600A5E049 /* TrialChatBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		834B05B52004BCE500A5E049 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = weeclicks;
+				TargetAttributes = {
+					834B05BC2004BCE600A5E049 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					834B05D42004BCE600A5E049 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 834B05BC2004BCE600A5E049;
+					};
+				};
+			};
+			buildConfigurationList = 834B05B82004BCE500A5E049 /* Build configuration list for PBXProject "TrialChatBot" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 834B05B42004BCE500A5E049;
+			productRefGroup = 834B05BE2004BCE600A5E049 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				834B05BC2004BCE600A5E049 /* TrialChatBot */,
+				834B05D42004BCE600A5E049 /* TrialChatBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		834B05BB2004BCE600A5E049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834B05E82004C06400A5E049 /* Main.storyboard in Resources */,
+				834B05CD2004BCE600A5E049 /* LaunchScreen.storyboard in Resources */,
+				834B05CA2004BCE600A5E049 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834B05D32004BCE600A5E049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D5F22DE2188F7773366B2DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TrialChatBot/Pods-TrialChatBot-resources.sh",
+				"${PODS_ROOT}/ApiAI/ApiAI/UIKit/Images/AICubeIconImage.png",
+				"${PODS_ROOT}/ApiAI/ApiAI/UIKit/Images/AICubeIconImage@2x.png",
+				"${PODS_ROOT}/ApiAI/ApiAI/UIKit/Images/AICubeIconImage@3x.png",
+				"${PODS_ROOT}/ApiAI/ApiAI/UIKit/Images/AIMicrophoneControlImage.png",
+				"${PODS_ROOT}/ApiAI/ApiAI/UIKit/Images/AIMicrophoneControlImage@2x.png",
+				"${PODS_ROOT}/ApiAI/ApiAI/UIKit/Images/AIMicrophoneControlImage@3x.png",
+				"${PODS_ROOT}/ApiAI/ApiAI/UIKit/Classes/AIVoiceRequestButton.xib",
+				"${PODS_ROOT}/ApiAI/ApiAI/VoiceRequest/Resources/beep.caf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrialChatBot/Pods-TrialChatBot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AD202976D485C899742C601 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TrialChatBot/Pods-TrialChatBot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ApiAI/ApiAI.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ApiAI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrialChatBot/Pods-TrialChatBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63D57C50CD05AF3E60A7E5FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrialChatBot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		834B05B92004BCE600A5E049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834B05C52004BCE600A5E049 /* ViewController.m in Sources */,
+				834B05D02004BCE600A5E049 /* main.m in Sources */,
+				834B05C22004BCE600A5E049 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834B05D12004BCE600A5E049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834B05DA2004BCE600A5E049 /* TrialChatBotUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		834B05D72004BCE600A5E049 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834B05BC2004BCE600A5E049 /* TrialChatBot */;
+			targetProxy = 834B05D62004BCE600A5E049 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		834B05CB2004BCE600A5E049 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				834B05CC2004BCE600A5E049 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		834B05E62004C06400A5E049 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				834B05E72004C06400A5E049 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		834B05DC2004BCE600A5E049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		834B05DD2004BCE600A5E049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		834B05DF2004BCE600A5E049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3A533904AEBB1BC8190729 /* Pods-TrialChatBot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55Y345G9F4;
+				INFOPLIST_FILE = TrialChatBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weeclicks.TrialChatBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		834B05E02004BCE600A5E049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7099877DCC911585D226CC7 /* Pods-TrialChatBot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55Y345G9F4;
+				INFOPLIST_FILE = TrialChatBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weeclicks.TrialChatBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		834B05E22004BCE600A5E049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrialChatBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weeclicks.TrialChatBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrialChatBot;
+			};
+			name = Debug;
+		};
+		834B05E32004BCE600A5E049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrialChatBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weeclicks.TrialChatBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrialChatBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		834B05B82004BCE500A5E049 /* Build configuration list for PBXProject "TrialChatBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834B05DC2004BCE600A5E049 /* Debug */,
+				834B05DD2004BCE600A5E049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834B05DE2004BCE600A5E049 /* Build configuration list for PBXNativeTarget "TrialChatBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834B05DF2004BCE600A5E049 /* Debug */,
+				834B05E02004BCE600A5E049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834B05E12004BCE600A5E049 /* Build configuration list for PBXNativeTarget "TrialChatBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834B05E22004BCE600A5E049 /* Debug */,
+				834B05E32004BCE600A5E049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 834B05B52004BCE500A5E049 /* Project object */;
+}

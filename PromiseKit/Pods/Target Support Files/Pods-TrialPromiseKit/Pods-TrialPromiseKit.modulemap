@@ -1,0 +1,6 @@
+framework module Pods_TrialPromiseKit {
+  umbrella header "Pods-TrialPromiseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

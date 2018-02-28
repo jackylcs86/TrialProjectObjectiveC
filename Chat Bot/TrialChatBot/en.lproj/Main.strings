@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Send Message to Bot"; ObjectID = "2aA-cZ-IMA"; */
+"2aA-cZ-IMA.normalTitle" = "Send Message to Bot";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AJS-K6-nw6"; */
+"AJS-K6-nw6.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Type ur message"; ObjectID = "hVm-mr-xZw"; */
+"hVm-mr-xZw.placeholder" = "Type ur message";

@@ -1,0 +1,13 @@
+2017-12-07 10:22:14.442 TrialLibPhoneNumber[2580:584467] Mobile Country Code :: 502
+2017-12-07 10:22:14.443 TrialLibPhoneNumber[2580:584467] Carrier Name :: DiGi
+2017-12-07 10:22:14.444 TrialLibPhoneNumber[2580:584467] iso Country Code :: my
+2017-12-07 10:22:14.444 TrialLibPhoneNumber[2580:584467] Mobile Network Code :: 16
+
+/// ================ Change sim card here ================ ///
+2017-12-07 10:22:53.160 TrialLibPhoneNumber[2580:584785] Carrier update notifier::CTCarrier (0x1554ddb0) {
+	Carrier name: [CELCOM]
+	Mobile Country Code: [502]
+	Mobile Network Code:[19]
+	ISO Country Code:[my]
+	Allows VOIP? [YES]
+}

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <ShareFramework/ShareFramework.h>
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *ivSharedImage;
@@ -22,7 +23,16 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"View Did Load");
     [self loadFromShareExtension];
+    [self testShareFramework];
 //    [self extension];
+}
+
+- (void)testShareFramework {
+    Person *person = [Person new];
+    person.name = @"Jacky Liew";
+    person.age = @"18";
+    
+    NSLog(@"Person :: %@", person);
 }
 
 - (void)loadFromShareExtension {

@@ -8,6 +8,7 @@
 
 #import "ShareViewController.h"
 #import "ViewController.h"
+#import <ShareFramework/ShareFramework.h>
 
 static NSString *cellId = @"MyCellID";
 
@@ -21,6 +22,12 @@ static NSString *cellId = @"MyCellID";
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.myTV registerClass:[UITableViewCell class] forCellReuseIdentifier:cellId];
+    
+    Person *person = [Person new];
+    person.name = @"Jacky Liew";
+    person.age = @"18";
+    
+    NSLog(@"Person :: %@", person);
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
